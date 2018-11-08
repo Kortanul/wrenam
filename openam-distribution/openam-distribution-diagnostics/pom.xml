@@ -3,6 +3,7 @@
 * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS HEADER.
 *
 * Copyright 2011-2015 ForgeRock AS.
+* Portions Copyright 2018 Wren Security.
 *
 * The contents of this file are subject to the terms
 * of the Common Development and Distribution License
@@ -34,8 +35,8 @@
     </parent>
 
     <!-- Component Definition -->
-    <name>OpenAM Distribution Diagnostics</name>
-    <description>OpenAM Distribution Diagnostics</description>
+    <name>Wren:AM - Distribution Diagnostics</name>
+    <description>Wren:AM Distribution Diagnostics</description>
     <artifactId>openam-distribution-diagnostics</artifactId>
     <packaging>pom</packaging>
 

@@ -3,6 +3,7 @@
 * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS HEADER.
 *
 * Copyright (c) 2013-2015 ForgeRock AS. All Rights Reserved
+* Portions Copyright 2018 Wren Security.
 *
 * The contents of this file are subject to the terms
 * of the Common Development and Distribution License
@@ -35,8 +36,8 @@
     <!-- Component Definition -->
     <artifactId>openam-configurator-tool</artifactId>
     <packaging>jar</packaging>
-    <name>OpenAM Configurator Tool</name>
-    <description>OpenAM Configurator Tool</description>
+    <name>Wren:AM - Configurator Tool</name>
+    <description>Wren:AM Configurator Tool</description>
 
     <!-- Build -->
     <build>
@@ -69,12 +70,12 @@
                             <customClasspathLayout>${artifact.artifactId}-${artifact.baseVersion}${dashClassifier?}.${artifact.extension}</customClasspathLayout>
                         </manifest>
                         <manifestEntries>
-                            <Specification-Title>OpenAM Configurator Tool</Specification-Title>
+                            <Specification-Title>Wren:AM Configurator Tool</Specification-Title>
                             <Specification-Version>${project.version} - ${maven.build.timestamp}</Specification-Version>
                             <Specification-Vendor>ForgeRock</Specification-Vendor>
-                            <Implementation-Title>OpenAM Configurator Tool</Implementation-Title>
+                            <Implementation-Title>Wren:AM Configurator Tool</Implementation-Title>
                             <Implementation-Version>${project.version} - ${maven.build.timestamp}</Implementation-Version>
-                            <Implementation-Vendor>ForgeRock</Implementation-Vendor>
+                            <Implementation-Vendor>Wren Security</Implementation-Vendor>
                             <Built-By>${user.name}</Built-By>
                             <Build-Jdk>${java.version}</Build-Jdk>
                             <Build-Time>${maven.build.timestamp}</Build-Time>

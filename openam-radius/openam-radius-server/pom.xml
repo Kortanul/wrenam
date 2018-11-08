@@ -1,3 +1,28 @@
+<!--
+* DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS HEADER.
+*
+* Copyright 2015-2017 ForgeRock AS.
+* Portions Copyright 2018 Wren Security.
+*
+* The contents of this file are subject to the terms
+* of the Common Development and Distribution License
+* (the License). You may not use this file except in
+* compliance with the License.
+*
+* You can obtain a copy of the License at
+* http://forgerock.org/license/CDDLv1.0.html
+* See the License for the specific language governing
+* permission and limitations under the License.
+*
+* When distributing Covered Code, include this CDDL
+* Header Notice in each file and include the License file
+* at http://forgerock.org/license/CDDLv1.0.html
+* If applicable, add the following below the CDDL Header,
+* with the fields enclosed by brackets [] replaced by
+* your own identifying information:
+* "Portions Copyrighted [year] [name of copyright owner]"
+*
+-->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
@@ -6,8 +31,8 @@
     <version>13.5.1-SNAPSHOT</version>
   </parent>
   <artifactId>openam-radius-server</artifactId>
-  <name>OpenAM RADIUS Server</name>
-  <description>Provides a RADIUS server that runs as a service inside OpenAM and uses OpenAM 
+  <name>Wren:AM - RADIUS Server</name>
+  <description>Provides a RADIUS server that runs as a service inside Wren:AM and uses Wren:AM
   auth chains to resolve authN requests.</description>
   
   <dependencies>
@@ -53,10 +78,10 @@
                             <mainClass>org.forgerock.openam.radius.server.ConsoleClient</mainClass>
                         </manifest>
                         <manifestEntries>
-                            <Implementation-Title>OpenAM Radius Server</Implementation-Title>
+                            <Implementation-Title>Wren:AM Radius Server</Implementation-Title>
                             <Implementation-Version>${project.version} - ${maven.build.timestamp}
                             </Implementation-Version>
-                            <Implementation-Vendor>ForgeRock</Implementation-Vendor>
+                            <Implementation-Vendor>Wren Security</Implementation-Vendor>
                             <Build-Jdk>${java.version}</Build-Jdk>
                             <Build-Time>${maven.build.timestamp}</Build-Time>
                             <Version>${project.version}</Version>

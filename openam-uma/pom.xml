@@ -3,6 +3,7 @@
 * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS HEADER.
 *
 * Copyright 2015-2016 ForgeRock AS.
+* Portions Copyright 2018 Wren Security.
 *
 * The contents of this file are subject to the terms
 * of the Common Development and Distribution License
@@ -32,8 +33,8 @@
         <version>13.5.1-SNAPSHOT</version>
     </parent>
 
-    <name>OpenAM UMA</name>
-    <description>OpenAM User Managed Access</description>
+    <name>Wren:AM - UMA</name>
+    <description>Wren:AM User Managed Access</description>
     <artifactId>openam-uma</artifactId>
     
     <dependencies>

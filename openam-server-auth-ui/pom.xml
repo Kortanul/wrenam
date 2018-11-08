@@ -3,6 +3,7 @@
 * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS HEADER.
 *
 * Copyright 2012-2015 ForgeRock AS.
+* Portions Copyright 2018 Wren Security.
 *
 * The contents of this file are subject to the terms
 * of the Common Development and Distribution License
@@ -33,8 +34,8 @@
     </parent>
 
     <!-- Component Definition -->
-    <name>OpenAM Server Auth UI</name>
-    <description>OpenAM Server Auth UI</description>
+    <name>Wren:AM - Server Auth UI</name>
+    <description>Wren:AM Server Auth UI</description>
     <artifactId>openam-server-auth-ui</artifactId>
     <packaging>jar</packaging>
 
@@ -48,13 +49,13 @@
                     <archive>
                         <index>true</index>
                         <manifestEntries>
-                            <Specification-Title>OpenAM Server UI</Specification-Title>
+                            <Specification-Title>Wren:AM Server UI</Specification-Title>
                             <Specification-Version>${project.version} - ${maven.build.timestamp}</Specification-Version>
                             <Specification-Vendor>ForgeRock</Specification-Vendor>
-                            <Implementation-Title>OpenAM Server UI</Implementation-Title>
+                            <Implementation-Title>Wren:AM Server UI</Implementation-Title>
                             <Implementation-Version>${project.version} - ${maven.build.timestamp}
                             </Implementation-Version>
-                            <Implementation-Vendor>ForgeRock</Implementation-Vendor>
+                            <Implementation-Vendor>Wren Security</Implementation-Vendor>
                             <Built-By>${user.name}</Built-By>
                             <Build-Jdk>${java.version}</Build-Jdk>
                             <Build-Time>${maven.build.timestamp}</Build-Time>

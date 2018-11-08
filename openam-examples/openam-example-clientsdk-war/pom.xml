@@ -3,6 +3,7 @@
 * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS HEADER.
 *
 * Copyright 2012-2016 ForgeRock AS.
+* Portions Copyright 2018 Wren Security.
 *
 * The contents of this file are subject to the terms
 * of the Common Development and Distribution License
@@ -33,8 +34,8 @@
     </parent>
 
     <!-- Component Definition -->
-    <name>OpenAM Example ClientSDK WAR</name>
-    <description>OpenAM Example ClientSDK WAR</description>
+    <name>Wren:AM - Example ClientSDK WAR</name>
+    <description>Wren:AM Example ClientSDK WAR</description>
     <artifactId>openam-example-clientsdk-war</artifactId>
     <packaging>war</packaging>
 
@@ -48,12 +49,12 @@
                 <configuration>
                     <archive>
                         <manifestEntries>
-                            <Specification-Title>OpenAM Example ClientSDK WAR</Specification-Title>
+                            <Specification-Title>Wren:AM Example ClientSDK WAR</Specification-Title>
                             <Specification-Version>${project.version} - ${maven.build.timestamp}</Specification-Version>
                             <Specification-Vendor>ForgeRock</Specification-Vendor>
-                            <Implementation-Title>OpenAM Example ClientSDK WAR</Implementation-Title>
+                            <Implementation-Title>Wren:AM Example ClientSDK WAR</Implementation-Title>
                             <Implementation-Version>${project.version} - ${maven.build.timestamp}</Implementation-Version>
-                            <Implementation-Vendor>ForgeRock</Implementation-Vendor>
+                            <Implementation-Vendor>Wren Security</Implementation-Vendor>
                             <Build-Time>${maven.build.timestamp}</Build-Time>
                         </manifestEntries>
                     </archive>

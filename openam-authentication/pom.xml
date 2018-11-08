@@ -3,6 +3,7 @@
 * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS HEADER.
 *
 * Copyright 2011-2015 ForgeRock AS.
+* Portions Copyright 2018 Wren Security.
 *
 * The contents of this file are subject to the terms
 * of the Common Development and Distribution License
@@ -34,8 +35,8 @@
     </parent>
 
     <!-- Component Definition -->
-    <name>OpenAM Authentication</name>
-    <description>OpenAM Authentication Modules</description>
+    <name>Wren:AM - Authentication</name>
+    <description>Wren:AM Authentication Modules</description>
     <artifactId>openam-authentication</artifactId>
     <packaging>pom</packaging>
 

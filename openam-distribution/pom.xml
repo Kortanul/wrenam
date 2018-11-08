@@ -3,6 +3,7 @@
 * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS HEADER.
 *
 * Copyright (c) 2011-2013 ForgeRock AS. All Rights Reserved
+* Portions Copyright 2018 Wren Security.
 *
 * The contents of this file are subject to the terms
 * of the Common Development and Distribution License
@@ -34,8 +35,8 @@
     </parent>
 
     <!-- Component Definition -->
-    <name>OpenAM Distribution Packaging</name>
-    <description>OpenAM Final Module Distribution Package.</description>
+    <name>Wren:AM - Distribution Packaging</name>
+    <description>Wren:AM Final Module Distribution Package.</description>
     <artifactId>openam-distribution</artifactId>
     <packaging>pom</packaging>
 

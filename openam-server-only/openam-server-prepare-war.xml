@@ -156,7 +156,7 @@
 
         <copy todir="${openam.temp.target}/config/auth/default" filtering="false" overwrite="false">
             <fileset
-                    dir="${project.basedir}/../openam-federation/OpenFM/src/main/resources/xml/auth-module">
+                    dir="${project.basedir}/../openam-federation/wrenfm/src/main/resources/xml/auth-module">
                 <include name="*.*"/>
             </fileset>
         </copy>
@@ -164,7 +164,7 @@
         <copy todir="${openam.temp.target}/config/auth/default_en" filtering="false"
               overwrite="false">
             <fileset
-                    dir="${project.basedir}/../openam-federation/OpenFM/src/main/resources/xml/auth-module">
+                    dir="${project.basedir}/../openam-federation/wrenfm/src/main/resources/xml/auth-module">
                 <include name="*.*"/>
             </fileset>
         </copy>
@@ -172,7 +172,7 @@
         <copy todir="${openam.temp.target}/config/auth/default_de" filtering="false"
               overwrite="false">
             <fileset
-                    dir="${project.basedir}/../openam-federation/OpenFM/src/main/resources/xml/auth-module">
+                    dir="${project.basedir}/../openam-federation/wrenfm/src/main/resources/xml/auth-module">
                 <include name="*.*"/>
             </fileset>
         </copy>
@@ -180,7 +180,7 @@
         <copy todir="${openam.temp.target}/config/auth/default_es" filtering="false"
               overwrite="false">
             <fileset
-                    dir="${project.basedir}/../openam-federation/OpenFM/src/main/resources/xml/auth-module">
+                    dir="${project.basedir}/../openam-federation/wrenfm/src/main/resources/xml/auth-module">
                 <include name="*.*"/>
             </fileset>
         </copy>
@@ -188,7 +188,7 @@
         <copy todir="${openam.temp.target}/config/auth/default_fr" filtering="false"
               overwrite="false">
             <fileset
-                    dir="${project.basedir}/../openam-federation/OpenFM/src/main/resources/xml/auth-module">
+                    dir="${project.basedir}/../openam-federation/wrenfm/src/main/resources/xml/auth-module">
                 <include name="*.*"/>
             </fileset>
         </copy>
@@ -196,7 +196,7 @@
         <copy todir="${openam.temp.target}/config/auth/default_ja" filtering="false"
               overwrite="false">
             <fileset
-                    dir="${project.basedir}/../openam-federation/OpenFM/src/main/resources/xml/auth-module">
+                    dir="${project.basedir}/../openam-federation/wrenfm/src/main/resources/xml/auth-module">
                 <include name="*.*"/>
             </fileset>
         </copy>
@@ -204,7 +204,7 @@
         <copy todir="${openam.temp.target}/config/auth/default_ko" filtering="false"
               overwrite="false">
             <fileset
-                    dir="${project.basedir}/../openam-federation/OpenFM/src/main/resources/xml/auth-module">
+                    dir="${project.basedir}/../openam-federation/wrenfm/src/main/resources/xml/auth-module">
                 <include name="*.*"/>
             </fileset>
         </copy>
@@ -212,7 +212,7 @@
         <copy todir="${openam.temp.target}/config/auth/default_zh" filtering="false"
               overwrite="false">
             <fileset
-                    dir="${project.basedir}/../openam-federation/OpenFM/src/main/resources/xml/auth-module">
+                    dir="${project.basedir}/../openam-federation/wrenfm/src/main/resources/xml/auth-module">
                 <include name="*.*"/>
             </fileset>
         </copy>
@@ -220,7 +220,7 @@
         <copy todir="${openam.temp.target}/config/auth/default_zh_CN" filtering="false"
               overwrite="false">
             <fileset
-                    dir="${project.basedir}/../openam-federation/OpenFM/src/main/resources/xml/auth-module">
+                    dir="${project.basedir}/../openam-federation/wrenfm/src/main/resources/xml/auth-module">
                 <include name="*.*"/>
             </fileset>
         </copy>
@@ -228,7 +228,7 @@
         <copy todir="${openam.temp.target}/config/auth/default_zh_TW" filtering="false"
               overwrite="false">
             <fileset
-                    dir="${project.basedir}/../openam-federation/OpenFM/src/main/resources/xml/auth-module">
+                    dir="${project.basedir}/../openam-federation/wrenfm/src/main/resources/xml/auth-module">
                 <include name="*.*"/>
             </fileset>
         </copy>

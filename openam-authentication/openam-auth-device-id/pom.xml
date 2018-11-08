@@ -3,6 +3,7 @@
 * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS HEADER.
 *
 * Copyright 2014-2015 ForgeRock AS.
+* Portions Copyright 2018 Wren Security.
 *
 * The contents of this file are subject to the terms of the Common Development and Distribution License (the License).
 * You may not use this file except in compliance with the License.
@@ -25,8 +26,8 @@
         <version>13.5.1-SNAPSHOT</version>
     </parent>
 
-    <name>OpenAM Auth Device Id</name>
-    <description>OpenAM Authentication Device Id</description>
+    <name>Wren:AM - Auth Device Id</name>
+    <description>Wren:AM Authentication Device Id</description>
     <artifactId>openam-auth-device-id</artifactId>
     <packaging>jar</packaging>
 
@@ -43,13 +44,13 @@
                             <classpathPrefix>lib/</classpathPrefix>
                         </manifest>
                         <manifestEntries>
-                            <Specification-Title>OpenAM Auth Scripted Device Print</Specification-Title>
+                            <Specification-Title>Wren:AM Auth Scripted Device Print</Specification-Title>
                             <Specification-Version>${project.version} - ${maven.build.timestamp}</Specification-Version>
                             <Specification-Vendor>ForgeRock</Specification-Vendor>
-                            <Implementation-Title>OpenAM Auth Scripted</Implementation-Title>
+                            <Implementation-Title>Wren:AM Auth Scripted</Implementation-Title>
                             <Implementation-Version>${project.version} - ${maven.build.timestamp}
                             </Implementation-Version>
-                            <Implementation-Vendor>ForgeRock</Implementation-Vendor>
+                            <Implementation-Vendor>Wren Security</Implementation-Vendor>
                             <Built-By>${user.name}</Built-By>
                             <Build-Jdk>${java.version}</Build-Jdk>
                             <Build-Time>${maven.build.timestamp}</Build-Time>

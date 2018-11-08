@@ -13,6 +13,7 @@ Header, with the fields enclosed by brackets [] replaced by your own identifying
 information: "Portions Copyrighted [year] [name of copyright owner]".
 
 Copyright 2014-2015 ForgeRock AS.
+Portions Copyright 2018 Wren Security.
 -->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
@@ -23,8 +24,8 @@ Copyright 2014-2015 ForgeRock AS.
         <version>13.5.1-SNAPSHOT</version>
     </parent>
 
-    <name>OpenAM HTTP client</name>
-    <description>Common HTTP client implementation used by ForgeRock OpenAM custom scripting modules</description>
+    <name>Wren:AM - HTTP client</name>
+    <description>Common HTTP client implementation used by Wren:AM custom scripting modules</description>
     <url>https://svn.forgerock.org/openam/branches/sprint_57_script_auth_module/openam/openam-http-client</url>
     <artifactId>openam-http-client</artifactId>
 
@@ -37,18 +38,6 @@ Copyright 2014-2015 ForgeRock AS.
             <distribution>repo</distribution>
         </license>
     </licenses>
-
-    <issueManagement>
-        <system>Jira</system>
-        <url>https://bugster.forgerock.org/jira/browse/COMMONS</url>
-    </issueManagement>
-
-    <scm>
-        <url>https://svn.forgerock.org/commons/forgerock-http-client/trunk</url>
-        <connection>scm:svn:https://svn.forgerock.org/commons/forgerock-http-client/trunk</connection>
-        <developerConnection>scm:svn:https://svn.forgerock.org/commons/forgerock-http-client/trunk</developerConnection>
-      <tag>13.5.0</tag>
-    </scm>
 
     <dependencies>
         <dependency>

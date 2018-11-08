@@ -3,6 +3,7 @@
 * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS HEADER.
 *
 * Copyright (c) 2011-2016 ForgeRock AS.
+* Portions Copyright 2018 Wren Security.
 *
 * The contents of this file are subject to the terms
 * of the Common Development and Distribution License
@@ -34,8 +35,8 @@
     </parent>
 
     <!-- Component Definition -->
-    <name>OpenAM Server Only</name>
-    <description>OpenAM Server Only Component</description>
+    <name>Wren:AM - Server Only</name>
+    <description>Wren:AM Server Only Component</description>
     <artifactId>openam-server-only</artifactId>
     <packaging>war</packaging>
 
@@ -54,9 +55,9 @@
 
     <!-- Build -->
     <build>
-        <finalName>OpenAM-ServerOnly-${project.version}</finalName>
+        <finalName>WrenAM-ServerOnly-${project.version}</finalName>
         <plugins>
-            <!-- OpenDJ 3.0: Pre-Pre-Packaging Step to download required Pre-Packaging Resources-->
+            <!-- Wren:DS 3.0: Pre-Pre-Packaging Step to download required Pre-Packaging Resources-->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-dependency-plugin</artifactId>
@@ -159,7 +160,7 @@
 
                                 <property name="core.xml.dir" value="${project.basedir}/../openam-core/src/main/resources/xml" />
 
-                                <property name="federation.xml.dir" value="${project.basedir}/../openam-federation/OpenFM/src/main/resources/xml" />
+                                <property name="federation.xml.dir" value="${project.basedir}/../openam-federation/wrenfm/src/main/resources/xml" />
 
                                 <property name="exclusion.list" value="${exclusion.list.filename}" />
 
@@ -204,13 +205,13 @@
                     </packagingExcludes>
                     <archive>
                         <manifestEntries>
-                            <Specification-Title>OpenAM Server</Specification-Title>
+                            <Specification-Title>Wren:AM Server</Specification-Title>
                             <Specification-Version>${project.version} - ${maven.build.timestamp}</Specification-Version>
                             <Specification-Vendor>ForgeRock</Specification-Vendor>
-                            <Implementation-Title>OpenAM Server</Implementation-Title>
+                            <Implementation-Title>Wren:AM Server</Implementation-Title>
                             <Implementation-Version>${project.version} - ${maven.build.timestamp}
                             </Implementation-Version>
-                            <Implementation-Vendor>ForgeRock</Implementation-Vendor>
+                            <Implementation-Vendor>Wren Security</Implementation-Vendor>
                             <Build-Time>${maven.build.timestamp}</Build-Time>
                         </manifestEntries>
                     </archive>
@@ -366,7 +367,7 @@
                             <targetPath>WEB-INF/classes</targetPath>
                             <filtering>false</filtering>
                         </webResource>
-                        <!-- OpenDJ 3.0 Copy in an internal dependency needed by OpenAM -->
+                        <!-- Wren:DS 3.0 Copy in an internal dependency needed by Wren:AM -->
                         <webResource>
                             <directory>${project.build.directory}/repackage-opendj/opendj/lib</directory>
                             <includes>
@@ -632,7 +633,7 @@
     </profiles>
 
     <dependencies>
-        <!-- Embedded OpenDJ Dependencies -->
+        <!-- Embedded Wren:DS Dependencies -->
         <dependency>
             <groupId>org.forgerock.opendj</groupId>
             <artifactId>opendj-server</artifactId>
@@ -712,7 +713,7 @@
 
         <dependency>
             <groupId>org.forgerock.openam</groupId>
-            <artifactId>OpenFM</artifactId>
+            <artifactId>wrenfm</artifactId>
         </dependency>
 
         <dependency>

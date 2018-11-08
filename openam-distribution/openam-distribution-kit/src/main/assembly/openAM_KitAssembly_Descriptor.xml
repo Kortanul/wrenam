@@ -69,7 +69,7 @@
         </fileSet>
         <fileSet>
             <outputDirectory>ldif</outputDirectory>
-            <directory>../../openam-federation/OpenFM/src/main/ldif</directory>
+            <directory>../../openam-federation/wrenfm/src/main/ldif</directory>
         </fileSet>
     </fileSets>
 

@@ -3,6 +3,7 @@
  * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS HEADER.
  *
  * Copyright 2011-2015 ForgeRock AS.
+ * Portions Copyright 2018 Wren Security.
  *
  * The contents of this file are subject to the terms
  * of the Common Development and Distribution License
@@ -34,8 +35,8 @@
     </parent>
 
     <!-- Component Definition -->
-    <name>OpenAM MIB Schema</name>
-    <description>OpenAM MIB Schema Components</description>
+    <name>Wren:AM - MIB Schema</name>
+    <description>Wren:AM MIB Schema Components</description>
     <artifactId>openam-mib-schema</artifactId>
     <packaging>jar</packaging>
 
@@ -144,12 +145,12 @@
                             <classpathPrefix>lib/</classpathPrefix>
                         </manifest>
                         <manifestEntries>
-                            <Specification-Title>OpenAM MIB Component</Specification-Title>
+                            <Specification-Title>Wren:AM MIB Component</Specification-Title>
                             <Specification-Version>${project.version} - ${maven.build.timestamp}</Specification-Version>
                             <Specification-Vendor>ForgeRock</Specification-Vendor>
-                            <Implementation-Title>OpenAM MIB Component</Implementation-Title>
+                            <Implementation-Title>Wren:AM MIB Component</Implementation-Title>
                             <Implementation-Version>${project.version} - ${maven.build.timestamp}</Implementation-Version>
-                            <Implementation-Vendor>ForgeRock</Implementation-Vendor>
+                            <Implementation-Vendor>Wren Security</Implementation-Vendor>
                             <Built-By>${user.name}</Built-By>
                             <Build-Jdk>${java.version}</Build-Jdk>
                             <Build-Time>${maven.build.timestamp}</Build-Time>

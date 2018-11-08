@@ -3,6 +3,7 @@
 * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS HEADER.
 *
 * Copyright (c) 2011-2016 ForgeRock AS. All Rights Reserved
+* Portions Copyright 2018 Wren Security.
 *
 * The contents of this file are subject to the terms
 * of the Common Development and Distribution License
@@ -34,8 +35,8 @@
     </parent>
 
     <!-- Component Definition -->
-    <name>OpenAM Client SDK</name>
-    <description>OpenAM Java Client SDK</description>
+    <name>Wren:AM - Client SDK</name>
+    <description>Wren:AM Java Client SDK</description>
     <artifactId>openam-clientsdk</artifactId>
     <packaging>jar</packaging>
 
@@ -99,7 +100,7 @@
                 <configuration>
                     <!--
                     Anything you can find here is just a replication attempt of the ant ClientSDK build system.
-                    In future versions of OpenAM we need to enhance this generation process by simply separating
+                    In future versions of Wren:AM we need to enhance this generation process by simply separating
                     remote/local implementations in a much cleaner way
                     -->
                     <artifactSet>
@@ -116,7 +117,7 @@
                             <include>org.forgerock.openam:openam-saml2-schema</include>
                             <include>org.forgerock.openam:openam-xacml3-schema</include>
                             <include>org.forgerock.openam:openam-federation-library</include>
-                            <include>org.forgerock.openam:OpenFM</include>
+                            <include>org.forgerock.openam:openfm</include>
                             <include>org.forgerock.openam:openam-client-sts</include>
                             <include>org.json:json</include>
                             <include>org.forgerock.opendj:opendj-core</include>
@@ -337,7 +338,7 @@
                             </excludes>
                         </filter>
                         <filter>
-                            <artifact>org.forgerock.openam:OpenFM</artifact>
+                            <artifact>org.forgerock.openam:openfm</artifact>
                             <includes>
                                 <include>fmConfigurationService.properties</include>
                                 <include>fmLibertySecurity.properties</include>
@@ -523,12 +524,12 @@
                     <transformers>
                         <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
                             <manifestEntries>
-                                <Specification-Title>OpenAM Java CLient SDK</Specification-Title>
+                                <Specification-Title>Wren:AM Java CLient SDK</Specification-Title>
                                 <Specification-Version>${project.version} - ${maven.build.timestamp}</Specification-Version>
                                 <Specification-Vendor>ForgeRock</Specification-Vendor>
-                                <Implementation-Title>OpenAM Java Client SDK</Implementation-Title>
+                                <Implementation-Title>Wren:AM Java Client SDK</Implementation-Title>
                                 <Implementation-Version>${project.version} - ${maven.build.timestamp}</Implementation-Version>
-                                <Implementation-Vendor>ForgeRock</Implementation-Vendor>
+                                <Implementation-Vendor>Wren Security</Implementation-Vendor>
                                 <Built-By>${user.name}</Built-By>
                                 <Build-Jdk>${java.version}</Build-Jdk>
                                 <Build-Time>${maven.build.timestamp}</Build-Time>
@@ -561,7 +562,7 @@
         </dependency>
         <dependency>
             <groupId>org.forgerock.openam</groupId>
-            <artifactId>OpenFM</artifactId>
+            <artifactId>wrenfm</artifactId>
         </dependency>
         <dependency>
             <groupId>org.forgerock.openam</groupId>

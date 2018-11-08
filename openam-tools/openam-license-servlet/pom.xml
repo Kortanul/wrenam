@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
   ~ Copyright 2014-2015 ForgeRock AS.
+  ~ Portions Copyright 2018 Wren Security.
   ~
   ~ The contents of this file are subject to the terms of the Common Development and
   ~ Distribution License (the License). You may not use this file except in compliance with the
@@ -24,8 +25,8 @@
         <version>13.5.1-SNAPSHOT</version>
     </parent>
 
-    <name>OpenAM ServletContext License Locator</name>
-    <description>OpenAM ServletContext License Locator</description>
+    <name>Wren:AM - ServletContext License Locator</name>
+    <description>Wren:AM ServletContext License Locator</description>
     <artifactId>openam-license-servlet</artifactId>
     <packaging>jar</packaging>
 

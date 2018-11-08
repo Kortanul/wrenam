@@ -13,6 +13,7 @@
  * information: "Portions copyright [year] [name of copyright owner]".
  *
  * Copyright 2013-2015 ForgeRock AS.
+ * Portions Copyright 2018 Wren Security.
  *
 -->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
@@ -27,8 +28,8 @@
 
     <artifactId>openam-ldap-utils</artifactId>
     <packaging>jar</packaging>
-    <name>OpenAM LDAP Utilities</name>
-    <description>OpenAM LDAP Utilites</description>
+    <name>Wren:AM - LDAP Utilities</name>
+    <description>Wren:AM LDAP Utilites</description>
 
     <properties>
         <checkstyleFailOnError>true</checkstyleFailOnError>
@@ -48,12 +49,12 @@
                             <classpathPrefix>lib/</classpathPrefix>
                         </manifest>
                         <manifestEntries>
-                            <Specification-Title>OpenAM LDAP Utilities</Specification-Title>
+                            <Specification-Title>Wren:AM LDAP Utilities</Specification-Title>
                             <Specification-Version>${project.version} - ${maven.build.timestamp}</Specification-Version>
                             <Specification-Vendor>ForgeRock</Specification-Vendor>
-                            <Implementation-Title>OpenAM LDAP Utilities</Implementation-Title>
+                            <Implementation-Title>Wren:AM LDAP Utilities</Implementation-Title>
                             <Implementation-Version>${project.version} - ${maven.build.timestamp}</Implementation-Version>
-                            <Implementation-Vendor>ForgeRock</Implementation-Vendor>
+                            <Implementation-Vendor>Wren Security</Implementation-Vendor>
                             <Built-By>${user.name}</Built-By>
                             <Build-Jdk>${java.version}</Build-Jdk>
                             <Build-Time>${maven.build.timestamp}</Build-Time>

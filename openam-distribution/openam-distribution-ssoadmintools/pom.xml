@@ -3,6 +3,7 @@
 * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS HEADER.
 *
 * Copyright (c) 2011-2016 ForgeRock AS.
+* Portions Copyright 2018 Wren Security.
 *
 * The contents of this file are subject to the terms
 * of the Common Development and Distribution License
@@ -34,8 +35,8 @@
     </parent>
 
     <!-- Component Definition -->
-    <name>OpenAM Distribution ssoAdminTools</name>
-    <description>OpenAM Distribution SSO Admin Tools Kit.
+    <name>Wren:AM - Distribution ssoAdminTools</name>
+    <description>Wren:AM Distribution SSO Admin Tools Kit.
     </description>
     <artifactId>openam-distribution-ssoadmintools</artifactId>
     <packaging>pom</packaging>
@@ -225,7 +226,7 @@
 
         <dependency>
             <groupId>org.forgerock.openam</groupId>
-            <artifactId>OpenFM</artifactId>
+            <artifactId>wrenfm</artifactId>
         </dependency>
 
         <dependency>

@@ -3,6 +3,7 @@
 * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS HEADER.
 *
 * Copyright 2012-2015 ForgeRock AS.
+* Portions Copyright 2018 Wren Security.
 *
 * The contents of this file are subject to the terms
 * of the Common Development and Distribution License
@@ -35,8 +36,8 @@
     </parent>
 
     <!-- Component Definition -->
-    <name>OpenAM Diagnostics Schema</name>
-    <description>OpenAM Schemata Components</description>
+    <name>Wren:AM - Diagnostics Schema</name>
+    <description>Wren:AM Schemata Components</description>
     <artifactId>openam-diagnostics-schema</artifactId>
     <packaging>jar</packaging>
 
@@ -75,12 +76,12 @@
                             <classpathPrefix>lib/</classpathPrefix>
                         </manifest>
                         <manifestEntries>
-                            <Specification-Title>OpenAM Diagnostics Schema</Specification-Title>
+                            <Specification-Title>Wren:AM Diagnostics Schema</Specification-Title>
                             <Specification-Version>${project.version} - ${maven.build.timestamp}</Specification-Version>
                             <Specification-Vendor>ForgeRock</Specification-Vendor>
-                            <Implementation-Title>OpenAM Diagnostics Schema</Implementation-Title>
+                            <Implementation-Title>Wren:AM Diagnostics Schema</Implementation-Title>
                             <Implementation-Version>${project.version} - ${maven.build.timestamp}</Implementation-Version>
-                            <Implementation-Vendor>ForgeRock</Implementation-Vendor>
+                            <Implementation-Vendor>Wren Security</Implementation-Vendor>
                             <Built-By>${user.name}</Built-By>
                             <Build-Jdk>${java.version}</Build-Jdk>
                             <Build-Time>${maven.build.timestamp}</Build-Time>

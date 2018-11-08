@@ -3,6 +3,7 @@
 * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS HEADER.
 *
 * Copyright (c) 2011-2014 ForgeRock AS. All Rights Reserved
+* Portions Copyright 2018 Wren Security.
 *
 * The contents of this file are subject to the terms
 * of the Common Development and Distribution License
@@ -34,8 +35,8 @@
     </parent>
 
     <!-- Component Definition -->
-    <name>OpenAM Tools</name>
-    <description>OpenAM Tool Components</description>
+    <name>Wren:AM - Tools</name>
+    <description>Wren:AM Tool Components</description>
     <artifactId>openam-tools</artifactId>
     <packaging>pom</packaging>
 

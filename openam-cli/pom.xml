@@ -3,6 +3,7 @@
 * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS HEADER.
 *
 * Copyright (c) 2011-2013 ForgeRock AS. All Rights Reserved
+* Portions Copyright 2018 Wren Security.
 *
 * The contents of this file are subject to the terms
 * of the Common Development and Distribution License
@@ -34,8 +35,8 @@
     </parent>
 
     <!-- Component Definition -->
-    <name>OpenAM CLI Base</name>
-    <description>OpenAM Command Line Interface</description>
+    <name>Wren:AM - CLI Base</name>
+    <description>Wren:AM Command Line Interface</description>
     <artifactId>openam-cli</artifactId>
     <packaging>pom</packaging>
 

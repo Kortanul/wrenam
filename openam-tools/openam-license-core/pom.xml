@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
   ~ Copyright 2014-2015 ForgeRock AS.
+  ~ Portions Copyright 2018 Wren Security.
   ~
   ~ The contents of this file are subject to the terms of the Common Development and
   ~ Distribution License (the License). You may not use this file except in compliance with the
@@ -25,8 +26,8 @@
     </parent>
 
     <!-- Component Definition -->
-    <name>OpenAM License Core</name>
-    <description>OpenAM License Core</description>
+    <name>Wren:AM - License Core</name>
+    <description>Wren:AM License Core</description>
     <artifactId>openam-license-core</artifactId>
     <packaging>jar</packaging>
 

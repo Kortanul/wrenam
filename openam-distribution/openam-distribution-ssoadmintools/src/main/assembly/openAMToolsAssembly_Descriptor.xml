@@ -43,7 +43,7 @@
                 <include>org.forgerock.openam:openam-cli-impl</include>
                 <include>org.forgerock.openam:openam-entitlements</include>
                 <include>org.forgerock.openam:openam-federation-library</include>
-                <include>org.forgerock.openam:OpenFM</include>
+                <include>org.forgerock.openam:wrenfm</include>
                 <include>org.forgerock.openam:openam-dtd-schema</include>
                 <include>org.forgerock.openam:openam-jaxrpc-schema</include>
                 <include>org.forgerock.openam:openam-idsvcs-schema</include>
@@ -204,13 +204,13 @@
     <!-- Single Files -->
     <files>
         <file>
-            <source>${project.basedir}/../../openam-federation/OpenFM/src/main/scripts/bin/ssoadm</source>
+            <source>${project.basedir}/../../openam-federation/wrenfm/src/main/scripts/bin/ssoadm</source>
             <outputDirectory>template/unix/bin</outputDirectory>
             <destName>ssoadm.template</destName>
             <filtered>true</filtered>
         </file>
         <file>
-            <source>${project.basedir}/../../openam-federation/OpenFM/src/main/scripts/bin/ssoadm.bat</source>
+            <source>${project.basedir}/../../openam-federation/wrenfm/src/main/scripts/bin/ssoadm.bat</source>
             <outputDirectory>template/windows/bin</outputDirectory>
             <destName>ssoadm.bat.template</destName>
             <filtered>true</filtered>

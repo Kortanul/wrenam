@@ -3,6 +3,7 @@
 * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS HEADER.
 *
 * Copyright 2011-2016 ForgeRock AS.
+* Portions Copyright 2018 Wren Security.
 *
 * The contents of this file are subject to the terms
 * of the Common Development and Distribution License
@@ -34,8 +35,8 @@
     </parent>
 
     <!-- Component Definition -->
-    <name>OpenAM Core</name>
-    <description>OpenAM Core Components</description>
+    <name>Wren:AM - Core</name>
+    <description>Wren:AM Core Components</description>
     <artifactId>openam-core</artifactId>
     <packaging>jar</packaging>
 
@@ -53,13 +54,13 @@
                             <classpathPrefix>lib/</classpathPrefix>
                         </manifest>
                         <manifestEntries>
-                            <Specification-Title>OpenAM Core</Specification-Title>
+                            <Specification-Title>Wren:AM Core</Specification-Title>
                             <Specification-Version>${project.version} - ${maven.build.timestamp}</Specification-Version>
                             <Specification-Vendor>ForgeRock</Specification-Vendor>
-                            <Implementation-Title>OpenAM Core</Implementation-Title>
+                            <Implementation-Title>Wren:AM Core</Implementation-Title>
                             <Implementation-Version>${project.version} - ${maven.build.timestamp}
                             </Implementation-Version>
-                            <Implementation-Vendor>ForgeRock</Implementation-Vendor>
+                            <Implementation-Vendor>Wren Security</Implementation-Vendor>
                             <Built-By>${user.name}</Built-By>
                             <Build-Jdk>${java.version}</Build-Jdk>
                             <Build-Time>${maven.build.timestamp}</Build-Time>
@@ -361,7 +362,7 @@
             <artifactId>jsr305</artifactId>
         </dependency>
 
-        <!-- Legacy External Libraries for OpenAM -->
+        <!-- Legacy External Libraries for Wren:AM -->
         <dependency>
             <groupId>external</groupId>
             <artifactId>jdmkrt</artifactId>

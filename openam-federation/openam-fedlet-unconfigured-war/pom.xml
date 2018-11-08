@@ -3,6 +3,7 @@
 * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS HEADER.
 *
 * Copyright 2016 ForgeRock AS.
+* Portions Copyright 2018 Wren Security.
 *
 * The contents of this file are subject to the terms
 * of the Common Development and Distribution License
@@ -32,7 +33,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>openam-fedlet-unconfigured-war</artifactId>
-    <name>OpenAM Fedlet un-configured web application</name>
+    <name>Wren:AM - Fedlet un-configured web application</name>
     <packaging>war</packaging>
 
     <build>
@@ -43,12 +44,12 @@
                 <configuration>
                     <archive>
                         <manifestEntries>
-                            <Specification-Title>OpenAM Fedlet WAR</Specification-Title>
+                            <Specification-Title>Wren:AM Fedlet WAR</Specification-Title>
                             <Specification-Version>${project.version} - ${maven.build.timestamp}</Specification-Version>
                             <Specification-Vendor>ForgeRock</Specification-Vendor>
-                            <Implementation-Title>OpenAM Fedlet WAR</Implementation-Title>
+                            <Implementation-Title>Wren:AM Fedlet WAR</Implementation-Title>
                             <Implementation-Version>${project.version} - ${maven.build.timestamp}</Implementation-Version>
-                            <Implementation-Vendor>ForgeRock</Implementation-Vendor>
+                            <Implementation-Vendor>Wren Security</Implementation-Vendor>
                             <Build-Time>${maven.build.timestamp}</Build-Time>
                         </manifestEntries>
                     </archive>
@@ -136,56 +137,56 @@
                         </resource>
                         <resource>
                             <targetPath>WEB-INF/classes</targetPath>
-                            <directory>${basedir}/../../openam-federation/OpenFM/src/main/resources</directory>
+                            <directory>${basedir}/../../openam-federation/wrenfm/src/main/resources</directory>
                             <includes>
                                 <include>fmConfigurationService.properties</include>
                             </includes>
                         </resource>
                         <resource>
                             <targetPath>WEB-INF/classes</targetPath>
-                            <directory>${basedir}/../../openam-federation/OpenFM/src/main/resources/de_DE</directory>
+                            <directory>${basedir}/../../openam-federation/wrenfm/src/main/resources/de_DE</directory>
                             <includes>
                                 <include>fmConfigurationService_de.properties</include>
                             </includes>
                         </resource>
                         <resource>
                             <targetPath>WEB-INF/classes</targetPath>
-                            <directory>${basedir}/../../openam-federation/OpenFM/src/main/resources/es_ES</directory>
+                            <directory>${basedir}/../../openam-federation/wrenfm/src/main/resources/es_ES</directory>
                             <includes>
                                 <include>fmConfigurationService_es.properties</include>
                             </includes>
                         </resource>
                         <resource>
                             <targetPath>WEB-INF/classes</targetPath>
-                            <directory>${basedir}/../../openam-federation/OpenFM/src/main/resources/fr_FR</directory>
+                            <directory>${basedir}/../../openam-federation/wrenfm/src/main/resources/fr_FR</directory>
                             <includes>
                                 <include>fmConfigurationService_fr.properties</include>
                             </includes>
                         </resource>
                         <resource>
                             <targetPath>WEB-INF/classes</targetPath>
-                            <directory>${basedir}/../../openam-federation/OpenFM/src/main/resources/ja_JP</directory>
+                            <directory>${basedir}/../../openam-federation/wrenfm/src/main/resources/ja_JP</directory>
                             <includes>
                                 <include>fmConfigurationService_ja.properties</include>
                             </includes>
                         </resource>
                         <resource>
                             <targetPath>WEB-INF/classes</targetPath>
-                            <directory>${basedir}/../../openam-federation/OpenFM/src/main/resources/ko_KR</directory>
+                            <directory>${basedir}/../../openam-federation/wrenfm/src/main/resources/ko_KR</directory>
                             <includes>
                                 <include>fmConfigurationService_ko.properties</include>
                             </includes>
                         </resource>
                         <resource>
                             <targetPath>WEB-INF/classes</targetPath>
-                            <directory>${basedir}/../../openam-federation/OpenFM/src/main/resources/zh_CN</directory>
+                            <directory>${basedir}/../../openam-federation/wrenfm/src/main/resources/zh_CN</directory>
                             <includes>
                                 <include>fmConfigurationService_zh.properties</include>
                             </includes>
                         </resource>
                         <resource>
                             <targetPath>WEB-INF/classes</targetPath>
-                            <directory>${basedir}/../../openam-federation/OpenFM/src/main/resources/zh_TW</directory>
+                            <directory>${basedir}/../../openam-federation/wrenfm/src/main/resources/zh_TW</directory>
                             <includes>
                                 <include>fmConfigurationService_zh_TW.properties</include>
                             </includes>
