@@ -2,6 +2,7 @@
    DO  NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS HEADER.
   
    Copyright (c) 2011-2013 ForgeRock AS. All rights reserved.
+   Portions Copyright 2018 Wren Security.
   
    The contents of this file are subject to the terms
    of the Common Development and Distribution License
@@ -158,8 +159,9 @@
     </div>
     <div class="footer alt-color">
         <div class="grid_3">
-            <p>Copyright &copy; 208-2013, ForgeRock AS. <br/>All Rights Reserved. Use of this software is subject to the
-                terms and conditions of the ForgeRock&trade; License and Subscription Agreement.</p>
+            <p>Copyright &copy; 2010-2016, ForgeRock AS.<br />
+            Portions copyright &copy; 2017-2018 Wren Security. <br/>
+            All Rights Reserved. Use of this software is subject to the terms and conditions of the <a href="https://opensource.org/licenses/CDDL-1.0" target="_blank">Common Development and Distribution License, version 1.0</a>.</p>
         </div>
     </div>
 </div>

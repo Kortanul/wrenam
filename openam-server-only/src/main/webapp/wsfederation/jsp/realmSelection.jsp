@@ -24,7 +24,8 @@
 
    $Id: realmSelection.jsp,v 1.10 2009/10/29 00:00:00 exu Exp $
 
-    Portions Copyrighted 2013-2016 ForgeRock AS.
+   Portions Copyrighted 2013-2016 ForgeRock AS.
+   Portions Copyright 2018 Wren Security.
 --%>
 
 <%@page
@@ -287,8 +288,12 @@
     background-repeat:repeat-x;background-position:left top;">
       <td>&nbsp;</td>
       <td>
-        <div class="logCpy"><span class="logTxtCpy">
-          Copyright &copy; 2008-2016, ForgeRock AS. All Rights Reserved. Use of this software is subject to the terms and conditions of the ForgeRock&#8482; License and Subscription Agreement.
+        <div class="logCpy">
+            <span class="logTxtCpy">
+                Copyright &copy; 2010-2016, ForgeRock AS.<br />
+                Portions copyright &copy; 2017-2018 Wren Security. <br/>
+                All Rights Reserved. Use of this software is subject to the terms and conditions of the <a href="https://opensource.org/licenses/CDDL-1.0" target="_blank">Common Development and Distribution License, version 1.0</a>.
+            </span>
         </div>
       </td>
       <td>&nbsp;</td>

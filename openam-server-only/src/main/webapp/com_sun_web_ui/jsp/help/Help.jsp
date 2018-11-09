@@ -7,6 +7,7 @@
  */
 
    Portions Copyrighted 2013-2016 ForgeRock AS.
+   Portions Copyright 2018 Wren Security.
 --%>
 
 <%@page language="java" %>
@@ -82,7 +83,7 @@
 <title><%=windowTitle %></title>
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta name="Copyright" content="Copyright &copy; 2010-2016, ForgeRock AS. All Rights Reserved.">
+  <meta name="Copyright" content="Copyright &copy; 2010-2016, ForgeRock AS. Portions copyright &copy; 2017-2018 Wren Security. All Rights Reserved.">
   <cc:stylesheet />
 </head>
 

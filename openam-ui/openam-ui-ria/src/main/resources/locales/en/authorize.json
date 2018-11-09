@@ -1,7 +1,7 @@
 {
     "common": {
         "form": {
-            "copyright" : "Copyright &copy; 2010-2016 ForgeRock AS. All rights reserved.",
+            "copyright" : "Copyright &copy; 2010-2016 ForgeRock AS. Portions copyright &copy; 2017-2018 Wren Security. All rights reserved.",
             "build": "Build"
         }
     },

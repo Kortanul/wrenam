@@ -26,6 +26,7 @@
 
    Portions Copyrighted 2011-2016 ForgeRock AS.
    Portions Copyrighted 2012 Open Source Solution Technology Corporation
+   Portions Copyright 2018 Wren Security.
 --%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
@@ -116,8 +117,9 @@
         </div>
         <div class="footer alt-color">
             <div class="grid_6 suffix_3">
-                <p>Copyright &copy; 2010-2016, ForgeRock AS. <br/>All Rights Reserved. Use of this software is subject to the
-                    terms and conditions of the ForgeRock&trade; License and Subscription Agreement.</p>
+                <p>Copyright &copy; 2010-2016, ForgeRock AS.<br />
+                Portions copyright &copy; 2017-2018 Wren Security. <br/>
+                All Rights Reserved. Use of this software is subject to the terms and conditions of the <a href="https://opensource.org/licenses/CDDL-1.0" target="_blank">Common Development and Distribution License, version 1.0</a>.</p>
             </div>
         </div>
     </div>
