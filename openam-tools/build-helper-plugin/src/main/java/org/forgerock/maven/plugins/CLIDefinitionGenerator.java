@@ -124,7 +124,6 @@ public class CLIDefinitionGenerator extends AbstractMojo {
             throws IOException {
         new File(resourceDir).mkdirs();
         String filePath = resourceDir + File.separator + classInfo.resourceBundle() + ".properties";
-        getLog().error("FILE PATH: " + filePath);
         File rbFile = new File(filePath);
         rbFile.createNewFile();
         FileOutputStream rbStream = new FileOutputStream(rbFile);
