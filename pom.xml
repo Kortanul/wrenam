@@ -3,7 +3,7 @@
 * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS HEADER.
 *
 * Copyright (c) 2011-2016 ForgeRock AS. All Rights Reserved
-* Portions Copyright 2018 Wren Security.
+* Portions Copyright 2018-2019 Wren Security.
 *
 * The contents of this file are subject to the terms
 * of the Common Development and Distribution License
@@ -198,7 +198,7 @@
         <forgerock.license.version>1.0.0</forgerock.license.version>
         <checkstyleFailOnError>false</checkstyleFailOnError>
 
-        <pgpWhitelistArtifact>org.wrensecurity:wrensec-pgp-whitelist:1.1.0</pgpWhitelistArtifact>
+        <pgpWhitelistArtifact>org.wrensecurity:wrensec-pgp-whitelist:1.4.2</pgpWhitelistArtifact>
     </properties>
 
     <!-- Profiles -->
